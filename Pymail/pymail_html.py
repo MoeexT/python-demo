@@ -17,7 +17,7 @@ mail_user="yuwancumiana@sina.cn"    #用户名
 mail_pass="mq2020."   #htdjucacsmbeebhi
   
 sender = 'yuwancumiana@sina.cn'  
-receivers = ['yuwancumian666@gmail.com','2535257276@qq.com','635936876@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱  
+receivers = ['yuwancumian666@gmail.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱 ,'2535257276@qq.com','635936876@qq.com' 
 
 def add_img(src, img_name):
 	img = MIMEImage(open(src, 'rb').read(), _subtype='jpg')
